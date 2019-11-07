@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 
-	<title>Hello World</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	<div class="qwe">
-	<h3>Здесь я сделал заголовок</h3>
-<p>Это абзац, с <b>жирными</b> и <i>курсивными</i> словами, а это <a href="https://vk.com/uundome">ссылка</a> на страницу Коли </p>
-<p>Вот неупорядоченный список:</p>
-<ul>
-	<li>Раз</li>
-	<li>Два</li>
-	<li>Три</li>
-</ul>
-<p>Вот упорядоченный список:</p>
-<div class="table1">
-	<ol>
-	    <li><span style="color: red">red</span></li> 
-	    <li><span style="color: blue">Blue</span></li> 
-	    <li><span style="color: yellow">yellow</span></li> 
-    </ol>
-</div>
-<a href="http://img1.joyreactor.cc/pics/comment/payday-песочница-630065.jpeg" ;><img style=" width: 300px; height: 300px" src="https://yt3.ggpht.com/a/AGF-l79xHwhk0vM1R64ISHAqHUIkQm9KtsJ1UOfylQ=s900-c-k-c0xffffffff-no-rj-mo"></a>
-<p>Это просто для практики, например:<br>я хочу сделать это с новой строки</p>
-<p>Таблица Пифагора <i>(короткий вариант)</i></p>
-<table border="1" cellspacing="0" cellpadding="2" heigh="200" width="200" >
-	<tr>
-		<th colspan="2">1</th>
-		
-		<th>2</th>
-	</tr>
-	<tr>
-		<th>1</th>
-		<td>1</td>
-		<td>2</td>
-	</tr>
-	<tr>
-		<th>1</th>
-		<td>2</td>
-		<td>4</td>
-	</tr>
-</table>
-</div class="qwe">
+    <div class="qwe">
+        <h3>Здесь я сделал заголовок</h3>
+        <p>
+		Это абзац, с <b>жирными</b> и <i>курсивными</i> словами, а это 
+		<a href="https://vk.com/uundome">ссылка</a> <!-- Вместо http(s):// можно писать просто - // -->
+		на страницу Коли
+	</p>
+        <p>Вот неупорядоченный список:</p>
+        <ul>
+            <li>Раз</li>
+            <li>Два</li>
+            <li>Три</li>
+        </ul>
+        <p>Вот упорядоченный список:</p>
+        <div class="table1">
+            <ol>
+                <li class="red">red</li> <!-- CSS: .red { color: red }. Инлайн стили (в атрибуте style) - плохо! -->
+                <li><span style="color: blue">Blue</span></li> <!-- Аналогично... -->
+                <li><span style="color: yellow">yellow</span></li> <!-- Аналогично... -->
+            </ol>
+        </div>
+     	<!-- Вместо http(s):// можно писать просто - // -->
+        <a href="//img1.joyreactor.cc/pics/comment/payday-песочница-630065.jpeg" ;><img style=" width: 300px; height: 300px" src="//yt3.ggpht.com/a/AGF-l79xHwhk0vM1R64ISHAqHUIkQm9KtsJ1UOfylQ=s900-c-k-c0xffffffff-no-rj-mo"></a>
+        <p>Это просто для практики, например:
+            <br>я хочу сделать это с новой строки</p>
+        <p>Таблица Пифагора <i>(короткий вариант)</i></p>
+        <table border="1" cellspacing="0" cellpadding="2" heigh="200" width="200">
+            <tr>
+                <th colspan="2">1</th>
+
+                <th>2</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>1</th>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+        </table>
+	<!-- <div class="qwe"></div> Бывает с div ТОЛЬКО ТАК! И зачем оно? -->
 </body>
+
 </html>
