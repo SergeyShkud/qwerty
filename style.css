@@ -1,0 +1,12 @@
+.table1 {
+	color: #FFA07A;
+	background-color: green;
+	width: 150px
+
+}
+.qwe {
+	width: 50;
+	height: 100%;
+	background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.depositphotos.com%2Fvector-images%2F%25D0%25B1%25D0%25B0%25D0%25BD%25D0%25B0%25D0%25BD%25D1%258B-%25D1%2584%25D0%25BE%25D0%25BD.html&psig=AOvVaw3F7Z7lcxq3YHoAC5-rEYDw&ust=1573230108855000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNC6uYPB2OUCFQAAAAAdAAAAABAP");
+    border: 1px solid black
+}
